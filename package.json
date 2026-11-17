@@ -1,0 +1,24 @@
+{
+  "name": "cypress-e2e-project",
+  "version": "1.0.0",
+  "description": "Testes End-to-End com Cypress - Front-End 3° B",
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "start-server-and-test start http://localhost:3000 cypress:run"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "testing",
+    "frontend"
+  ],
+  "author": "Bruno De Lima - 3° B (Prof. Pedro Yokada)",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6",
+    "serve": "^14.2.1",
+    "start-server-and-test": "^2.0.3"
+  }
+}
